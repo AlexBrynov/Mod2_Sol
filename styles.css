@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font size: 27px;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.section {
+	background-color: grey; 
+	border: 2px solid black;
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	/*margin-right: 20px;*/
+
+	padding: 3px;
+	text-align: justify;
+	position: relative;
+}
+
+span{
+	font-size: 20px;
+	width: 150px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top: 0; right: 0; margin: 0;
+	position: absolute;
+
+}
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Helvetica;
+	font-size: 16px;
+	position: relative;
+}
+#h1 {
+	background-color: #EB510C;
+	color: black;
+}
+ #h2 {
+ 	background-color: #951A3D;
+ 	color: white;
+ }
+ #h3 {
+ 	background-color: #C2B882;
+ 	color: black;
+ }
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+}
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+}
+/* Cell phone view */
+@media (max-width: 767px) {
+	.col-sx-12 {
+		float:left;
+		width: 100%;
+	}
+}
+	
